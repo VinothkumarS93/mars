@@ -49,5 +49,5 @@ jobs:
         with:
           app-name: 'marsapp1'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_94B55216DBA4453FA67F8D05B1F49FF3 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_FB28ECDB7C3543D7B40CE20D77180AFA }}
           package: '*.war'
